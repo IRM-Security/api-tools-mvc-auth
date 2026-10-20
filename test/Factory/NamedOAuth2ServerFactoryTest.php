@@ -12,7 +12,6 @@ use PHPUnit\Framework\TestCase;
 
 class NamedOAuth2ServerFactoryTest extends TestCase
 {
-
     /** @var ServiceManager */
     private $services;
 
