@@ -19,7 +19,6 @@ use PHPUnit\Framework\TestCase;
 
 class HttpAdapterTest extends TestCase
 {
-
     /** @var AuthenticationService */
     private $authentication;
 
