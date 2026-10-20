@@ -18,6 +18,21 @@ class DefaultResourceResolverListenerTest extends TestCase
 {
     use RouteMatchFactoryTrait;
 
+    /** @var TestAsset\AuthenticationService */
+    private $authentication;
+
+    /** @var AuthorizationInterface */
+    private $authorization;
+
+    /** @var MvcAuthEvent */
+    private $mvcAuthEvent;
+
+    /** @var array */
+    private $restControllers;
+
+    /** @var DefaultResourceResolverListener */
+    private $listener;
+
     public function setUp(): void
     {
         $routeMatch = $this->createRouteMatch([]);
