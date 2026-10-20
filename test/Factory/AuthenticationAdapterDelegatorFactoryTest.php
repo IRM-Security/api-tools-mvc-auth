@@ -14,7 +14,6 @@ use PHPUnit\Framework\TestCase;
 
 class AuthenticationAdapterDelegatorFactoryTest extends TestCase
 {
-
     /** @var DefaultAuthenticationListener */
     private $listener;
 
