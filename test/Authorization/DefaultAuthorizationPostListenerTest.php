@@ -15,7 +15,6 @@ use PHPUnit\Framework\TestCase;
 
 class DefaultAuthorizationPostListenerTest extends TestCase
 {
-
     /** @var TestAsset\AuthenticationService */
     private $authentication;
 
