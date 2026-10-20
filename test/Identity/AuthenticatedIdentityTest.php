@@ -12,6 +12,13 @@ use PHPUnit\Framework\TestCase;
 
 class AuthenticatedIdentityTest extends TestCase
 {
+
+    /** @var \stdClass */
+    private $authIdentity;
+
+    /** @var AuthenticatedIdentity */
+    private $identity;
+
     public function setUp(): void
     {
         $this->authIdentity = (object) [
