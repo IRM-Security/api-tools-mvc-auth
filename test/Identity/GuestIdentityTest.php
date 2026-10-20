@@ -12,7 +12,6 @@ use PHPUnit\Framework\TestCase;
 
 class GuestIdentityTest extends TestCase
 {
-
     /** @var GuestIdentity */
     private $identity;
 
