@@ -13,7 +13,6 @@ use PHPUnit\Framework\TestCase;
 
 class IdentityPluginTest extends TestCase
 {
-
     /** @var MvcEvent */
     private $event;
 
