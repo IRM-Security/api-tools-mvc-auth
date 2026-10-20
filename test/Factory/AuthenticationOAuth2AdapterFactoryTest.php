@@ -12,7 +12,6 @@ use PHPUnit\Framework\TestCase;
 
 class AuthenticationOAuth2AdapterFactoryTest extends TestCase
 {
-
     /** @var ServiceLocatorInterface */
     private $services;
 
