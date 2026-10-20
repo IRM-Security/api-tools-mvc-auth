@@ -13,6 +13,10 @@ use PHPUnit\Framework\TestCase;
 
 class AuthenticationHttpAdapterFactoryTest extends TestCase
 {
+
+    /** @var ServiceLocatorInterface */
+    private $services;
+
     public function setUp(): void
     {
         $this->services = $this->getMockBuilder(ServiceLocatorInterface::class)->getMock();
