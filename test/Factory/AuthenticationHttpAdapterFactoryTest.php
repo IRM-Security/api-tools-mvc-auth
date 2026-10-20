@@ -13,7 +13,6 @@ use PHPUnit\Framework\TestCase;
 
 class AuthenticationHttpAdapterFactoryTest extends TestCase
 {
-
     /** @var ServiceLocatorInterface */
     private $services;
 
