@@ -17,7 +17,6 @@ use PHPUnit\Framework\TestCase;
 
 class OAuth2AdapterTest extends TestCase
 {
-
     /** @var OAuth2Server */
     private $oauthServer;
 
