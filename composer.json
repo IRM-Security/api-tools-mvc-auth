@@ -42,8 +42,7 @@
         "laminas/laminas-permissions-acl": "^2.6",
         "laminas/laminas-permissions-rbac": "^2.6.0 || ^3.0",
         "laminas/laminas-servicemanager": "^3.11",
-        "laminas/laminas-stdlib": "^2.7.8 || ^3.0.1",
-        "laminas/laminas-zendframework-bridge": "^1.1"
+        "laminas/laminas-stdlib": "^2.7.8 || ^3.0.1"
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "~2.3.0",
